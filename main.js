@@ -8,7 +8,7 @@ const arr3 = [
     ['one', 'two', 'three'] 
 ]
 
-arr1.push(6)
-arr1.push(7)
-arr1.push('test')
-console.log(arr1) // 1 2 3 4 5 6 7 'test'
+for (let i in arr1) { // i is the index
+    console.log(i) // 0 1 2 3 4 -> indices
+    console.log(arr1[i]) // 1 2 3 4 5 --> arr1 elements
+}

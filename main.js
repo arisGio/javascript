@@ -1,2 +1,3 @@
-age = 20 // this is wrong, it becomes global and stays in memory, thus memory leaks
+"use strict" // to avoid global variable
+age = 20 // this is undefined now
 console.log(age)

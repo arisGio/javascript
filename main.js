@@ -19,3 +19,5 @@ console.log(test2) // undefined, there is a variable but no value assigned to it
 
 let apeiro = Infinity;
 let meion_apeiro = -Infinity;
+
+// when naming variables allowed: latin characters, numbers $ and underscore

@@ -1,3 +1,11 @@
-"use strict" // to avoid global variable
-age = 20 // this is undefined now
+"use strict"
+
+let age; // smaller track in memory
+
+age = 20
+
+console.log(age)
+
+age = 21
+
 console.log(age)

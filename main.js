@@ -17,3 +17,5 @@ let test = undefined
 let test2
 console.log(test2) // undefined, there is a variable but no value assigned to it
 
+let apeiro = Infinity;
+let meion_apeiro = -Infinity;

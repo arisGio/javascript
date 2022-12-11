@@ -40,3 +40,7 @@ how to comment out
 how to set up our environment
 --> now let's talk about variables-identifiers
 they are simply locations in memory kept during our program is executing
+
+## arrays
+
+main.js is our main file

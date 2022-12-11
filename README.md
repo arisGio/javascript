@@ -20,3 +20,9 @@ some styling with css
 and some life with js
 ES6 --> supported by many browsers
 also babel for backwards compatibility
+
+tools
+--> web browser, go for chrome it's pretty good
+--> VS Code as a code editor
+--> Live Server plugin
+--> F12 to inspect the web page, you can rip apart the page of the console so that it does not take space in one monitor, instead of having it together with the page

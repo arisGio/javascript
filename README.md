@@ -26,3 +26,5 @@ tools
 --> VS Code as a code editor
 --> Live Server plugin
 --> F12 to inspect the web page, you can rip apart the page of the console so that it does not take space in one monitor, instead of having it together with the page
+
+js can print in the console but can print to other places too

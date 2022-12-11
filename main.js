@@ -1,6 +1,6 @@
 "use strict"
 
-let age; // smaller track in memory
+var age; // not recommended to use var, we will talk about scope later on
 
 age = 20
 

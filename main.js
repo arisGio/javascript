@@ -8,4 +8,7 @@ const arr3 = [
     ['one', 'two', 'three'] 
 ]
 
-arr1[2] = 5 // no error, even though arr1 is const, recall what Kyle said: const is the array pointer, not the actual memory content
+arr1.push(6)
+arr1.push(7)
+arr1.push('test')
+console.log(arr1) // 1 2 3 4 5 6 7 'test'

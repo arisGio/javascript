@@ -14,4 +14,6 @@ let adult = true
 
 let test = undefined
 
-let
+let test2
+console.log(test2) // undefined, there is a variable but no value assigned to it
+

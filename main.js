@@ -11,4 +11,4 @@ const arr3 = [
 
 console.log(arr1[0])  // 1
 console.log(arr1[3])  // 4
-console.log(arr3[1])  //  one two three
+console.log(arr3[1][1])  // two

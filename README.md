@@ -28,3 +28,15 @@ tools
 --> F12 to inspect the web page, you can rip apart the page of the console so that it does not take space in one monitor, instead of having it together with the page
 
 js can print in the console but can print to other places too
+
+we some introductory things
+we saw how to set up our environment
+etc
+
+## identifiers
+
+we saw how to simply print to the console
+how to comment out
+how to set up our environment
+--> now let's talk about variables-identifiers
+they are simply locations in memory kept during our program is executing

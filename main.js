@@ -1,9 +1,7 @@
 "use strict";
 
-const mystring = "hello world!"
+let temp = 30
 
-// console.log(mystring[1])
+let result = "Temperature is: " + temp + "C"; // string concatenation
 
-for (let letter of mystring) {
-    console.log(letter) // h e ll o w o r l d ! (elements)
-}
+console.log(result) // Temperature is: 30C

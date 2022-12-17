@@ -1,15 +1,9 @@
 "use strict";
 
-function hello() {
-    console.log('Hello world!')
+function hello(name) {
+    console.log(name ? `Hello ${name}` : 'Hello world!')
 }
 
-// functions are 1st-class citizens
-// a 1st-class citizen can be assigned to a variable
+hello() // Hello world!
 
-console.log(hello) // returns: that hello is a function
-
-let x = hello // but instead you can aasign to variable
-console.log(x) // returns function
-
-// NB: we can pass a function as an argument to another function, which is very powerful
+hello('Bill') // Hello Bill

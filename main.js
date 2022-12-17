@@ -4,8 +4,12 @@ function hello() {
     console.log('Hello world!')
 }
 
-// if there was no function definition -> block get's executed by default
+// functions are 1st-class citizens
+// a 1st-class citizen can be assigned to a variable
 
-// if there is a function definition before the block -> the block does not get executed by default, but we have to invoke it instead
+console.log(hello) // returns: that hello is a function
 
-hello()
+let x = hello // but instead you can aasign to variable
+console.log(x) // returns function
+
+// NB: we can pass a function as an argument to another function, which is very powerful

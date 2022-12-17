@@ -71,4 +71,9 @@ do while loop
 
 ## if & switch
 
-asdf
+if
+switch --> when we have many conditions
+
+## operators
+
+numerical operators

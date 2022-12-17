@@ -10,8 +10,8 @@ const student = {
     }
 }
 
-console.log(student) // grade: 10 exists
+console.log('grade' in student) // true
 
 delete student.grade
 
-console.log(student) // grade: 10 does not exist
+console.log('grade' in student) // false

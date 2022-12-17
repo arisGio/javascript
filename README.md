@@ -89,4 +89,6 @@ map object values
 
 ## delete, ternaries, break, continue
 
-delete
+delete in objects
+'key' in object
+delete in arrays

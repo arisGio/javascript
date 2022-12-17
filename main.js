@@ -14,7 +14,6 @@ const student = {
     }
 }
 
-console.log(student.fullname()) // Alex Alexiou
-// use () parentheses, .fullname() to execute the function and not just invoke it, .fullname
-console.log(student.teacher) // Vasilis Vasileiou
-console.log(student.teacher.course) // Math
+student.grade = 10;
+
+console.log(student.grade) // 10

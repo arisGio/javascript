@@ -2,10 +2,8 @@
 
 const a = [1,2,3,'four',5]
 
-let [b, c, d, g] = a
+let [b, c, ...r] = a
 
 console.log(b) // 1
 console.log(c) // 2
-console.log(d) // 3
-console.log(g) // four
-// 5 is not assigned somewhere
+console.log(r) // [3,'four',5] rest of them

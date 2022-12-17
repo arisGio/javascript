@@ -84,3 +84,4 @@ non strict & strict comparison operators
 assignment operators
 typeof
 destructuring operator
+spread operator

@@ -1,5 +1,20 @@
 "use strict";
 
-for(let i = 0, n=5; i < 5; i++, n--){
-    console.log(`${i} ${n}`)
+const student = {
+    firstname: 'Alex',
+    lastname: 'Alexiou',
+    age: 22,
+    courses: ['Computer science', 'Math'],
+    teacher: {
+        name: 'Vasilis Vasileiou',
+        course: 'Math'
+    }
 }
+
+for (let idx in student){
+    console.log(idx) // key
+    console.log(student[idx]) // value
+    console.log('-------------') // visual separator
+}
+
+// we cannot use for of loop

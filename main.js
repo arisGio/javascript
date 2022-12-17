@@ -1,5 +1,9 @@
 "use strict";
 
-let dom = document.querySelectorAll('h1')
+alert('test') // blocked function
+// used only for debugging
+// blocks JS flow
 
-console.log(dom) // NodeList(2) [h1, h1]
+let dom = document.querySelector('h1')
+
+console.log(dom)

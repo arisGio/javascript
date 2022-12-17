@@ -48,3 +48,13 @@ main.js is our main file
 other than push() there are many other usefull array methods that we will see later on...
 
 ## strings
+
+asdf
+
+## objects
+
+asdf
+
+## for loops
+
+asdf

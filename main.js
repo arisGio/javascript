@@ -1,19 +1,7 @@
 "use strict";
 
-const student = {
-    firstname: 'Alex',
-    lastname: 'Alexiou',
-    age: 22,
-    courses: ['Computer science', 'Math'],
-    teacher: {
-        name: 'Vasilis Vasileiou',
-        course: 'Math'
-    },
-    fullname: function(){
-        return `${this.firstname} ${this.lastname}`
-    }
-}
+for(let i = 0; i < 10; i++) console.log(i)
 
-student.grade = 10;
+// if one line then omit curly braces {}
 
-console.log(JSON.stringify(student)) // {"firstname":"Alex","lastname":"Alexiou","age":22,"courses":["Computer science","Math"],"teacher":{"name":"Vasilis Vasileiou","course":"Math"},"grade":10}
+// i++ --> SYNTACTIC SUGAR i = i + 1

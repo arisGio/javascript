@@ -120,3 +120,4 @@ querySelector()
 querySelectorAll()
 alert()
 addEventListener()
+thus with JavaScript we can query events and elements

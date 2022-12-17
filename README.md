@@ -97,3 +97,4 @@ more common to delete from object
 delete is an operator way to delete an element
 arrays also have methods like splice where you can manipulate them instead of using operators
 conditional operator
+jump operators -> break, continue

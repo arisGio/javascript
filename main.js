@@ -1,17 +1,13 @@
 "use strict";
 
-const student = {
-    name: 'Alex Alexiou',
-    grade: 10,
-    courses: ['CS', 'Math'],
-    teacher: {
-        name: 'Vasilis Vasileiou',
-        course: 'CS'
-    }
-}
+let a = [1,2,3,4,5]
 
-console.log('grade' in student) // true
+console.log(a) // 1 2 3 4 5
+console.log(a[2]) // 3
+console.log(a[3]) // 4
 
-delete student.grade
+delete a[2]
 
-console.log('grade' in student) // false
+console.log(a) // 1 2 empty 4 5
+console.log(a[2]) // undefined
+console.log(a[3]) // 4

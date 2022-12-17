@@ -92,3 +92,7 @@ map object values
 delete in objects
 'key' in object
 delete in arrays
+very rare to delete from array
+more common to delete from object
+delete is an operator way to delete an element
+arrays also have methods like splice where you can manipulate them instead of using operators

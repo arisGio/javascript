@@ -1,13 +1,9 @@
 "use strict";
 
-let x = 51;
+let age = 16;
 
-while ( x < 50 ) { // never entering
-    console.log(x); // nothing
-    x++;
+if (age < 18) console.log("You are juvenile")
+
+if (age < 18) {
+    console.log("You are juvenile")
 }
-
-do { // runs at least once
-    console.log(x); // 51
-    x++;
-} while (x < 50)

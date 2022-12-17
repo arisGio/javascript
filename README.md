@@ -64,4 +64,11 @@ for of loop
 
 ## while, do while, logical operators
 
+conditions
+logical operators
+while loop
+do while loop
+
+## if & switch
+
 asdf

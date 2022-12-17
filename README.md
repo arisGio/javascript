@@ -117,3 +117,6 @@ dom: document object model
 document object
 CSS selectors
 querySelector()
+querySelectorAll()
+alert()
+addEventListener()

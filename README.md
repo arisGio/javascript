@@ -109,3 +109,4 @@ function parameters
 default values for function parameters
 return value
 anonymous functions
+arrow functions aka fat arrow functions

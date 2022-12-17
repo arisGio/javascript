@@ -1,12 +1,19 @@
 "use strict";
 
-let hello = function () {
-    return 'Hello world';
-}
+let hello = () => 'Hello world';
+// if one line then return is not needed
+// and { } can be omitted
+// shorter way to write functions
 
-console.log(hello)   // returns function
-console.log(hello()) // Helo world
+console.log(hello())
 
-// functions that have no name
-// why are anonymous functions usefull? -> we can give functionality to an object's key
-// reminder: the fullname key of the student object we defined in the past using an anonymous function
+// functions that have no 'function' keyword in the beginning
+// new syntax of JavaScript
+// syntactic sugar
+// they have a different scope
+// also they behave differently with the 'this' keyword
+
+
+// let hello = function () {
+//     return 'Hello world';
+// }

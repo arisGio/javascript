@@ -1,5 +1,5 @@
 "use strict";
 
-let dom = document.querySelector('h1').innerText
+let dom = document.querySelectorAll('h1')
 
-console.log(dom) // Hello world
+console.log(dom) // NodeList(2) [h1, h1]

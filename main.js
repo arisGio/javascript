@@ -1,5 +1,5 @@
 "use strict";
 
-let mystring = '5' * 5;
+const student = {}
 
-console.log(mystring) // 25
+console.log(student)

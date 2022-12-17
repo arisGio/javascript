@@ -1,16 +1,12 @@
 "use strict";
 
-function hello(name = 'world') {
-    return `Hello ${name}!`
+let hello = function () {
+    return 'Hello world';
 }
 
-hello() // does nothing in the console
+console.log(hello)   // returns function
+console.log(hello()) // Helo world
 
-let greeting = hello()
-console.log(greeting) // with return we get a result
-// and not execute things that show up in the console
-
-// we could also do...
-console.log(hello()) // returns the return value
-
-console.log(hello) // returns that hello is a function
+// functions that have no name
+// why are anonymous functions usefull? -> we can give functionality to an object's key
+// reminder: the fullname key of the student object we defined in the past using an anonymous function

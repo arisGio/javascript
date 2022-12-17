@@ -108,3 +108,4 @@ function invokation
 function parameters
 default values for function parameters
 return value
+anonymous functions

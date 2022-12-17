@@ -1,8 +1,14 @@
 "use strict";
 
-const student = {}
+const student = {
+    firstname: 'Alex',
+    lastname: 'Alexiou',
+    age: 22,
+    courses: ['Computer science', 'Math'],
+    teacher: {
+        name: 'Vasilis Vasileiou',
+        course: 'Math'
+    }
+}
 
-student.firstname = "Alex"
-student.lastname = "Alexiou"
-
-console.log(student) // {firstname: 'Alex', lastname: 'Alexiou}
+console.log(student) // {firstname: 'Alex', lastname: 'Alexiou', age: 22, courses: Array(2), teacher: {…}}

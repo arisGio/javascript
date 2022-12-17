@@ -115,3 +115,5 @@ arrow functions aka fat arrow functions
 
 dom: document object model
 document object
+CSS selectors
+querySelector()

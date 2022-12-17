@@ -85,3 +85,4 @@ assignment operators
 typeof
 destructuring operator
 spread operator
+map object values

@@ -1,9 +1,17 @@
 "use strict";
 
-const a = [1,2,3,'four',5]
+const student = {
+    name: 'Alex Alexiou',
+    grade: 10,
+    courses: ['CS', 'Math'],
+    teacher: {
+        name: 'Vasilis Vasileiou',
+        course: 'CS'
+    }
+}
 
-let [b, c, ...r] = a
-
-console.log(b) // 1
-console.log(c) // 2
-console.log(r) // [3,'four',5] rest of them
+const {name, grade, courses, teacher} = student
+console.log(name)     // Alex Alexiou
+console.log(grade)    // 10
+console.log(courses)  // ['CS','Math']
+console.log(teacher)  // {name: 'Vasilis Vasileiou', course: 'CS'}

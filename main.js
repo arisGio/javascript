@@ -14,4 +14,5 @@ const student = {
     }
 }
 
-console.log(student)
+console.log(student.firstname) // Alex
+console.log(student.age) // 22

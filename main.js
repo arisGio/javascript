@@ -1,7 +1,6 @@
 "use strict";
 
-for(let i = 0; i < 10; i++) console.log(i)
-
-// if one line then omit curly braces {}
-
-// i++ --> SYNTACTIC SUGAR i = i + 1
+for(let i = 0; i < 10; i++){
+    let s = i*i
+    console.log(`Square of ${i} is ${s}`)
+}

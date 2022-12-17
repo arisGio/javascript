@@ -53,8 +53,11 @@ asdf
 
 ## objects
 
-asdf
+JSON
+JSON.stringify
 
 ## for loops
 
-asdf
+for in loop
+
+for of loop

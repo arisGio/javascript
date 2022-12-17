@@ -18,3 +18,6 @@ for (let idx in student){
 }
 
 console.log(arr) // array with values from student object
+
+for (var element of arr) console.log(element)
+// logs elements of arr array

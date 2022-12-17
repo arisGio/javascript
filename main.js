@@ -10,8 +10,8 @@ const student = {
     }
 }
 
-const {name, grade, courses, teacher} = student
-console.log(name)     // Alex Alexiou
-console.log(grade)    // 10
-console.log(courses)  // ['CS','Math']
-console.log(teacher)  // {name: 'Vasilis Vasileiou', course: 'CS'}
+console.log(student) // grade: 10 exists
+
+delete student.grade
+
+console.log(student) // grade: 10 does not exist

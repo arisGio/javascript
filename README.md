@@ -86,3 +86,7 @@ typeof
 destructuring operator
 spread operator
 map object values
+
+## delete, ternaries, break, continue
+
+delete

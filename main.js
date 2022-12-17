@@ -1,20 +1,10 @@
 "use strict";
 
 let x = 5, y = '5';
+let a = [1,2,3] // can use instanceof too
+let b = function(){}
 
-// syntactic sugar
-
-x += 3 // x = x + 3
-console.log(x) // 8
-
-x *= 3 // x = x * 3
-console.log(x) // 24
-
-x /= 3 // x = x / 3
-console.log(x) // 8
-
-x -= 3 // x = x - 3
-console.log(x) // 5
-
-x %= 3 // x = x % 3
-console.log(x) // 2
+console.log(typeof x) // number
+console.log(typeof y) // string
+console.log(typeof a) // object
+console.log(typeof b) // function

@@ -82,3 +82,4 @@ post-increment
 comparison operators
 non strict & strict comparison operators
 assignment operators
+typeof

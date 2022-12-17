@@ -79,3 +79,4 @@ switch --> when we have many conditions
 numerical operators
 pre-increment
 post-increment
+comparison operators

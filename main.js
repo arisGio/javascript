@@ -1,4 +1,10 @@
 "use strict";
 
-let i = 1;
-console.log(++i) // 2, first adds, then logs
+let x = 5, y = 10;
+
+console.log(x < y) // true
+console.log(x > y) // false
+console.log(x <= y) // true
+console.log(x >= y) // false
+console.log(x == y) // false
+console.log(x != y) // true

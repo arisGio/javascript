@@ -1,19 +1,15 @@
 "use strict";
 
 let hello = () => 'Hello world';
-// if one line then return is not needed
-// and { } can be omitted
-// shorter way to write functions
 
-console.log(hello())
+let sum = (a,b) => a + b;
 
-// functions that have no 'function' keyword in the beginning
-// new syntax of JavaScript
-// syntactic sugar
-// they have a different scope
-// also they behave differently with the 'this' keyword
+let subtract = (a,b) => {
+    return a - b;
+}
 
+console.log(sum(5,6)) // 11
 
-// let hello = function () {
-//     return 'Hello world';
-// }
+console.log(subtract(5,3)) // 2
+
+console.log(hello())  // Hello world

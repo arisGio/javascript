@@ -8,7 +8,10 @@ const student = {
     teacher: {
         name: 'Vasilis Vasileiou',
         course: 'Math'
+    },
+    fullname: function(){
+        return `${firstname} ${lastname}`
     }
 }
 
-console.log(student) // {firstname: 'Alex', lastname: 'Alexiou', age: 22, courses: Array(2), teacher: {…}}
+console.log(student)

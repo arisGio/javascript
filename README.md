@@ -61,3 +61,7 @@ JSON.stringify
 for in loop
 
 for of loop
+
+## while, do while, logical operators
+
+asdf

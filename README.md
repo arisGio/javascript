@@ -77,3 +77,5 @@ switch --> when we have many conditions
 ## operators
 
 numerical operators
+pre-increment
+post-increment

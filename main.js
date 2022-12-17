@@ -1,9 +1,5 @@
 "use strict";
 
-let temp = 30
+let mystring = '5' + 5;
 
-// let result = "Temperature is: " + temp + "\u00B0C";
-
-let result = `Temperature "is": '${temp}' \u00B0C`; // backticks `
-
-console.log(result) // Temperature "is": '30' °C
+console.log(mystring) // 55

@@ -2,7 +2,19 @@
 
 let x = 5, y = '5';
 
-console.log(x == y)  // true
-console.log(x === y) // false
-console.log(x != y)  // false, '5' -> 5 != 5 -> false
-console.log(x !== y)  // true, '5' not 5 -> true
+// syntactic sugar
+
+x += 3 // x = x + 3
+console.log(x) // 8
+
+x *= 3 // x = x * 3
+console.log(x) // 24
+
+x /= 3 // x = x / 3
+console.log(x) // 8
+
+x -= 3 // x = x - 3
+console.log(x) // 5
+
+x %= 3 // x = x % 3
+console.log(x) // 2

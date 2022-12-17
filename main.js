@@ -1,7 +1,5 @@
 "use strict";
 
-for(let i = 0; i < 10; i++){
-    for(let n=0; n < 10; n++){
-        console.log(`${i} ${n}`)
-    }
+for(let i = 0, n=5; i < 5; i++, n--){
+    console.log(`${i} ${n}`)
 }

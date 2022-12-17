@@ -1,13 +1,18 @@
 "use strict";
 
-let a = [1,2,3,4,5]
+let name = 'Bill'
 
-console.log(a) // 1 2 3 4 5
-console.log(a[2]) // 3
-console.log(a[3]) // 4
+// 1st way
+// if (name) {
+//     console.log(`Hello ${name}`)
+// } else {
+//     console.log('Hello world')
+// }
 
-delete a[2]
+// 2nd way
+// let greeting = name ? `Hello ${name}` : 'Hello world';
+// console.log(greeting)
 
-console.log(a) // 1 2 empty 4 5
-console.log(a[2]) // undefined
-console.log(a[3]) // 4
+// 3rd way
+console.log(name ? `Hello ${name}` : 'Hello world')
+// it's like SYNTACTIC SUGAR

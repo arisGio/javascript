@@ -1,4 +1,4 @@
 "use strict";
 
-const mystring = 'hello\' world'
-console.log(mystring) // hello' world
+const mystring = "hello' world"
+console.log(mystring) // hello' world, no need for backslash

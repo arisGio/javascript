@@ -1,5 +1,5 @@
 "use strict";
 
-let dom = document.querySelector('h1').innerHTML
+let dom = document.querySelector('h1').innerText
 
-console.log(dom) // Hello <i>world</i>
+console.log(dom) // Hello world

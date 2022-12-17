@@ -11,10 +11,10 @@ const student = {
     }
 }
 
+const arr = []
+
 for (let idx in student){
-    console.log(idx) // key
-    console.log(student[idx]) // value
-    console.log('-------------') // visual separator
+    arr.push(student[idx])
 }
 
-// we cannot use for of loop
+console.log(arr) // array with values from student object

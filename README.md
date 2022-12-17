@@ -46,3 +46,5 @@ they are simply locations in memory kept during our program is executing
 main.js is our main file
 
 other than push() there are many other usefull array methods that we will see later on...
+
+## strings

@@ -121,3 +121,12 @@ querySelectorAll()
 alert()
 addEventListener()
 thus with JavaScript we can query events and elements
+
+## scope
+
+JS is event-based
+JS is asynchronous
+different scope & contect with other languages
+scope: view we have on a variable
+context: has to do with the 'this' keyword
+var | let | const

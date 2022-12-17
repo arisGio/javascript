@@ -1,9 +1,6 @@
 "use strict";
 
-let dom = document.querySelector('h1')
+let a = 1;
 
-dom.addEventListener('click', function(){
-    alert('You clicked me!')
-})
-
-console.log(dom)
+console.log(a); // 1
+// we can also write directly to the console in our browser

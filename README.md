@@ -114,3 +114,4 @@ arrow functions aka fat arrow functions
 ## browser side
 
 dom: document object model
+document object

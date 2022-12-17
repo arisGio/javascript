@@ -10,9 +10,11 @@ const student = {
         course: 'Math'
     },
     fullname: function(){
-        return `${firstname} ${lastname}`
+        return `${this.firstname} ${this.lastname}`
     }
 }
 
-console.log(student.firstname) // Alex
-console.log(student.age) // 22
+console.log(student.fullname()) // Alex Alexiou
+// use () parentheses, .fullname() to execute the function and not just invoke it, .fullname
+console.log(student.teacher) // Vasilis Vasileiou
+console.log(student.teacher.course) // Math

@@ -2,8 +2,6 @@
 
 const a = [1, 2, 3, 1, 12, 6, 34, 634]
 
-let b = a.filter(function(x){
-    return x > 10
-})
+let b = a.filter(x => x**2 > 20)
 
-console.log(b)  // [12, 34, 634]
+console.log(b)  // [12, 6, 34, 634]

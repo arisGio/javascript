@@ -131,3 +131,8 @@ scope: view we have on a variable
 context: has to do with the 'this' keyword
 var | let | const
 you can debug through the console directly
+
+## context, this
+
+context: main source of bugs, juniors get messed up
+this keyword with button example

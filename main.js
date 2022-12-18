@@ -15,6 +15,6 @@ const students = [
     }
 ]
 
-let meanValue = Math.round(students.map(x => x.grade).reduce((a,b) => a + b, 0) / students.length)
+let meanValue = (students.map(x => x.grade).reduce((a,b) => a + b, 0) / students.length).toFixed(2)
 
-console.log(meanValue) // 9
+console.log(meanValue) // 8.67 -> to avoid 8.66666...

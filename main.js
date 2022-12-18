@@ -1,20 +1,7 @@
 "use strict";
 
-const students = [
-    {
-        name: 'Alexia Alexiou',
-        grade: 7
-    },
-    {
-        name: 'Vasiliki Vasileiou',
-        grade: 9
-    },
-    {
-        name: 'Georgia Georgiou',
-        grade: 10
-    }
-]
+const a = [1, 2, 3, 1, 12, 6, 34, 634]
 
-let names = students.filter(x => x.grade >= 8).map(x => x.name)
+let b = a.reduce((currentTotal, current) => currentTotal + current, 0)
 
-console.log(names) // ['Vasiliki Vasileiou', 'Georgia Georgiou']
+console.log(b)  // 693

@@ -151,3 +151,8 @@ slice
 
 filter
 map
+
+## array methods 3/3
+
+reduce
+sort

@@ -3,7 +3,7 @@
 let a = 1;
 
 function test(){
-    let a = 'one'
+    a = 'one'
     function inner(){
         a = 'two'
         console.log(a)
@@ -13,4 +13,4 @@ function test(){
 }
 
 test()            // two, two
-console.log(a);   // 1
+console.log(a);   // two

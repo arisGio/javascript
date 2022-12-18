@@ -136,3 +136,5 @@ you can debug through the console directly
 
 context: main source of bugs, juniors get messed up
 this keyword with button example
+event based nature of JavaScript
+fat arrow functions

@@ -1,13 +1,19 @@
 "use strict";
 
-function print_text(){
-    let text = this.innerText
-    this.innerText = 'You clicked me!'
-    setTimeout(function(){
-        this.innerText = text
-    }.bind(this),3000)
+console.log(this)   // Window
+
+let test = () => {
+    console.log(this)
 }
 
-document.querySelector('#button-one').addEventListener('click', print_text)
+function test2() {
+    console.log(this)
+}
 
-document.querySelector('#button-two').addEventListener('click', print_text)
+test()              // Window
+
+test2()             // undefined
+
+// arrow functions behave like they are binded to parent's 'this'
+
+// in event listeners we commonly do not use arrow functions so that we get the exact 'this' and not the parent 'this' object

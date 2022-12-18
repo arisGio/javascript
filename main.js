@@ -1,18 +1,7 @@
 "use strict";
 
-var a = 1;
-
-function test(){
-    var a = 'one'
-    function inner(){
-        var a = 'two'
-        console.log(a)
-    }
-    inner()
-    console.log(a)
+for (let i = 0; i < 5; i++) {
+    console.log(i)  // 0 1 2 3 4
 }
 
-test()        
-console.log(a); 
-
-// same as let
+console.log(i) // i is not defined

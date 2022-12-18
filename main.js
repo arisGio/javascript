@@ -1,14 +1,16 @@
 "use strict";
 
-console.log(this) // Window
+// console.log(this)
 
-function print_text(){
-    console.log(this)
-}
+// function print_text(){
+//     console.log(this)
+// }
 
-document.querySelector('#button-one').addEventListener('click', print_text) // <button>One... (on click)
+// document.querySelector('#button-one').addEventListener('click', print_text)
 
-document.querySelector('#button-two').addEventListener('click', print_text) // <button>Two... (on click)
+// document.querySelector('#button-two').addEventListener('click', print_text)
 
-// so every time this get's another value
-// in detail this becomes the object which we are refering to
+console.log('start')
+setTimeout(function(){
+    console.log('end')
+},3000)

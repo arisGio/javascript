@@ -1,7 +1,19 @@
 "use strict";
 
-const a = [1, 2, 3, 1, 12, 6, 34, 634]
+const students = [
+    {
+        name: 'Alexia Alexiou',
+        grade: 7
+    },
+    {
+        name: 'Vasiliki Vasileiou',
+        grade: 9
+    },
+    {
+        name: 'Georgia Georgiou',
+        grade: 10
+    }
+]
 
-let b = a.reduce((currentTotal, current) => currentTotal + current, 0)
-
-console.log(b)  // 693
+let meanValue = students.map(x => x.grade).reduce((a,b) => a + b, 0) / students.length
+console.log(meanValue) // 8.666666...

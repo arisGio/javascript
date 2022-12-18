@@ -1,16 +1,18 @@
 "use strict";
 
-let a = 1;
+var a = 1;
 
 function test(){
-    a = 'one'
+    var a = 'one'
     function inner(){
-        a = 'two'
+        var a = 'two'
         console.log(a)
     }
     inner()
     console.log(a)
 }
 
-test()            // two, two
-console.log(a);   // two
+test()        
+console.log(a); 
+
+// same as let

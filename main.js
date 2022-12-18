@@ -15,6 +15,6 @@ const students = [
     }
 ]
 
-let names = students.map(x => x.name)
+let names = students.filter(x => x.grade >= 8).map(x => x.name)
 
-console.log(names) // ['Alexia Alexiou', 'Vasiliki Vasileiou', 'Georgia Georgiou']
+console.log(names) // ['Vasiliki Vasileiou', 'Georgia Georgiou']

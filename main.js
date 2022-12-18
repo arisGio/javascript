@@ -1,9 +1,11 @@
 "use strict";
 
-document.querySelector('#button-one').addEventListener('click', function(){
-    console.log(this.innerText) // One (on click)
-})
+function print_text(){
+    console.log(this.innerText)
+}
 
-document.querySelector('#button-two').addEventListener('click', function(){
-    console.log(this.innerText)  // Two (on click)
-})
+document.querySelector('#button-one').addEventListener('click', print_text)
+
+document.querySelector('#button-two').addEventListener('click', print_text)
+
+// works same as before with the anonymous callback functions

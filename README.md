@@ -141,4 +141,13 @@ fat arrow functions
 
 ## array methods 1/3
 
-filter, map, reduce, sort
+push
+pop
+forEach
+splice
+slice
+
+## array methods 2/3
+
+filter
+map

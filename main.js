@@ -1,8 +1,9 @@
 "use strict";
 
-const a = [1, 2, 3, 1, 'test', 6]
+const a = [1, 2, 3, 1, 12, 6, 34, 634]
 
-console.log(a.slice(3,5)) // [1, 'test']
-// last element is non-inclusive
+let b = a.filter(function(x){
+    return x > 10
+})
 
-console.log(a)  // [1, 2, 3, 1, 'test', 6]
+console.log(b)  // [12, 34, 634]

@@ -130,3 +130,4 @@ different scope & contect with other languages
 scope: view we have on a variable
 context: has to do with the 'this' keyword
 var | let | const
+you can debug through the console directly

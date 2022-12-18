@@ -1,10 +1,9 @@
 "use strict";
 
-let a = 1;
-
 function test(){
+    let a = 1;
     console.log(a)
 }
 
 test() // 1
-console.log(a); // 1
+console.log(a); // a is not defined

@@ -1,7 +1,20 @@
 "use strict";
 
-const a = [1, 2, 3, 1, 12, 6, 34, 634]
+const students = [
+    {
+        name: 'Alexia Alexiou',
+        grade: 7
+    },
+    {
+        name: 'Vasiliki Vasileiou',
+        grade: 9
+    },
+    {
+        name: 'Georgia Georgiou',
+        grade: 10
+    }
+]
 
-let b = a.map(x => x**2)
+let names = students.map(x => x.name)
 
-console.log(b) // [1, 4, 9, 1, 144, 36, 1156, 401956]
+console.log(names) // ['Alexia Alexiou', 'Vasiliki Vasileiou', 'Georgia Georgiou']

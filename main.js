@@ -4,13 +4,13 @@ let a = 1;
 
 function test(){
     let a = 'one'
-    console.log(a)
     function inner(){
         let a = 'two'
         console.log(a)
     }
     inner()
+    console.log(a)
 }
 
-test()            // one, two
+test()            // two, one
 console.log(a);   // 1

@@ -1,20 +1,20 @@
 "use strict";
 
-const students = [
-    {
-        name: 'Alexia Alexiou',
-        grade: 7
-    },
-    {
-        name: 'Vasiliki Vasileiou',
-        grade: 9
-    },
-    {
-        name: 'Georgia Georgiou',
-        grade: 10
-    }
-]
+const a = [1, 2, 634, 3, 1, 12, 6, 34]
 
-let meanValue = (students.map(x => x.grade).reduce((a,b) => a + b, 0) / students.length).toFixed(2)
+console.log(a.sort()) // [1, 1, 12, 2, 3, 34, 6, 634]
 
-console.log(meanValue) // 8.67 -> to avoid 8.66666...
+// const students = [
+//     {
+//         name: 'Alexia Alexiou',
+//         grade: 7
+//     },
+//     {
+//         name: 'Vasiliki Vasileiou',
+//         grade: 9
+//     },
+//     {
+//         name: 'Georgia Georgiou',
+//         grade: 10
+//     }
+// ]

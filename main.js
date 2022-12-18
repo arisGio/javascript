@@ -1,19 +1,11 @@
 "use strict";
 
-console.log(this)   // Window
+const a = [1, 2, 3, 1, 'test', 6]
 
-let test = () => {
-    console.log(this)
+for (let i in a){
+    console.log(i) // 0 1 2 3 4 5
 }
 
-function test2() {
-    console.log(this)
+for (let i of a){
+    console.log(i) // 1 2 3 1 'test' 6
 }
-
-test()              // Window
-
-test2()             // undefined
-
-// arrow functions behave like they are binded to parent's 'this'
-
-// in event listeners we commonly do not use arrow functions so that we get the exact 'this' and not the parent 'this' object

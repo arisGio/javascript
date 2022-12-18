@@ -1,15 +1,14 @@
 "use strict";
 
-console.log(this) // Window, root object of browser
+console.log(this) // Window
 
 function print_text(){
-    console.log(this.innerText)
+    console.log(this)
 }
 
-document.querySelector('#button-one').addEventListener('click', print_text)
+document.querySelector('#button-one').addEventListener('click', print_text) // <button>One... (on click)
 
-document.querySelector('#button-two').addEventListener('click', print_text)
+document.querySelector('#button-two').addEventListener('click', print_text) // <button>Two... (on click)
 
-// works same as before with the anonymous callback functions
-
-// 'this' changes without us realizing it, so we get bugs
+// so every time this get's another value
+// in detail this becomes the object which we are refering to

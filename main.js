@@ -2,6 +2,6 @@
 
 const a = [1, 2, 3, 1, 'test', 6]
 
-a.push('seven')
+a.pop() // console.log(a.pop()) --> 6
 
-console.log(a)
+console.log(a) // [1, 2, 3, 1, 'test']

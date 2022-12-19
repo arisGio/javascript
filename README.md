@@ -156,3 +156,7 @@ map
 
 reduce
 sort
+
+## asynchronous JavaScript
+
+asdf

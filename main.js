@@ -15,5 +15,5 @@ const students = [
     }
 ]
 
-console.log(students.sort((a,b) => (a.grade > b.grade ? 1 : -1)))
-// Alexia Vasiliki Georgia
+console.log(students.sort((a,b) => (a.name > b.name ? 1 : -1)))
+// Alexia Georgia Vasiliki

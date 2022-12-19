@@ -1,9 +1,15 @@
 "use strict";
 
-var a = (function(){return 1})()
+const weatherDiv = document.querySelector('#weather')
 
-setTimeout(function(){a++},1000)
+let weatherResponse = "Please wait..."
 
-console.log(a) // 1, NOT 2
+weatherDiv.innerText = weatherResponse
 
-// JS runs on 1 thread, but can start on a new thread if needed
+function getWeather(){
+    return "Today is going to be shiny"
+}
+
+weatherResponse = getWeather()
+
+weatherDiv.innerText = weatherResponse

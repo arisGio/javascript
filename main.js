@@ -1,6 +1,19 @@
 "use strict";
 
-const a = [1, 2, 634, 3, 1, 12, 6, 34]
+const students = [
+    {
+        name: 'Alexia Alexiou',
+        grade: 7
+    },
+    {
+        name: 'Vasiliki Vasileiou',
+        grade: 9
+    },
+    {
+        name: 'Georgia Georgiou',
+        grade: 10
+    }
+]
 
-console.log(a.sort((a,b) => (a > b ? 1 : -1)))
-// [1, 1, 2, 3, 6, 12, 34, 634]
+console.log(students.sort((a,b) => (a.grade > b.grade ? 1 : -1)))
+// Alexia Vasiliki Georgia

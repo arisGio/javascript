@@ -1,4 +1,5 @@
 "use strict";
 
-console.log(a)
-var a = 1
+var a = function(){return 1}
+
+console.log(a()) // 1

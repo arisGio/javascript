@@ -12,8 +12,8 @@ browser's war --> optimizing js constantly
 --> we will see JS as a front end language/tool
 
 weird facts about js
---> asynchronous nature
---> event loop
+--> <code>asynchronous nature</code>
+--> <code>event loop</code>
 
 we will need an html page
 some styling with css
@@ -53,14 +53,14 @@ asdf
 
 ## objects
 
-JSON
-JSON.stringify
+<code>JSON</code>
+<code>JSON.stringify</code>
 
 ## for loops
 
-for in loop
+<code>for in</code> loop
 
-for of loop
+<code>for of</code> loop
 
 ## while, do while, logical operators
 
@@ -71,8 +71,8 @@ do while loop
 
 ## if & switch
 
-if
-switch --> when we have many conditions
+<code>if</code>
+<code>switch</code> --> when we have many conditions
 
 ## operators
 
@@ -82,9 +82,9 @@ post-increment
 comparison operators
 non strict & strict comparison operators
 assignment operators
-typeof
-destructuring operator
-spread operator
+<code>typeof</code>
+<code>destructuring operator</code>
+<code>spread operator</code>
 map object values
 
 ## delete, ternaries, break, continue
@@ -141,21 +141,21 @@ fat arrow functions
 
 ## array methods 1/3
 
-push
-pop
-forEach
-splice
-slice
+<code>push()</code>
+<code>pop()</code>
+<code>forEach()</code>
+<code>splice()</code>
+<code>slice()</code>
 
 ## array methods 2/3
 
-filter
-map
+<code>filter()</code>
+<code>map()</code>
 
 ## array methods 3/3
 
-reduce
-sort
+<code>reduce()</code>
+<code>sort()</code>
 
 ## asynchronous JavaScript
 

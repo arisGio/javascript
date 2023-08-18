@@ -6,6 +6,8 @@ const fetchData = async () => {
     console.log(data);
   } catch (err) {
     console.log(err);
+  } finally {
+    console.log("FINISHED");
   }
 };
 

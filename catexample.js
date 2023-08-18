@@ -1,9 +1,12 @@
 const axios = require("axios");
 
 const fetchData = async () => {
-  const data = await axios.get("https://cat-fact.herokuapp.com/facts");
-
-  console.log(data);
+  try {
+    const data = await axios.get("https://cat-fact.herokuapp.com/facts");
+    console.log(data);
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 fetchData();
